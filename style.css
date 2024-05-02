@@ -1,0 +1,172 @@
+/* CSS for body */
+body {
+    background: linear-gradient(to bottom, #ddd, #ccc); /* Light grey gradient background */
+    color: #ffd700; /* Gold text color */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px; /* Add padding to the body */
+    text-align: center; /* Center align text */
+    box-sizing: border-box; /* Use border-box box model */
+    margin: 0 center; /* Center align content */
+    }
+    
+    
+    /* CSS for headings */
+    h1, h2, h3 {
+        color: #ffd700; /* Gold text color for headings */
+    }
+    
+    
+    
+    /* CSS for header */
+    header {
+        padding: 20px 0; /* Add padding to header */
+    }
+    
+    h1 {
+        font-size: 48px; /* Increase font size of main heading */
+        margin-bottom: 10px; /* Add margin below main heading */
+    }
+    
+    h2 {
+        font-size: 24px; /* Increase font size of sub heading */
+        margin-bottom: 20px; /* Add margin below sub heading */
+    }
+    
+    /* CSS for navigation */
+    nav ul {
+        list-style-type: none; /* Remove default list styles */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center align navigation links */
+    }
+    
+    nav ul li {
+        margin: 0 20px; /* Add margin between navigation links */
+    }
+    
+    nav ul li a {
+        text-decoration: none; /* Remove underline from links */
+        font-size: 20px; /* Font size of navigation links */
+    }
+    
+    /* CSS for sections */
+    section {
+        padding: 20px; /* Add padding to sections */
+        margin-bottom: 20px; /* Add margin below sections */
+        background-color: #333; /* Dark silver background color */
+        border-radius: 10px; /* Add border radius for rounded corners */
+        text-align: center; /* Left align text within sections */
+    }
+    
+    section h2 {
+        color: #ffd700; /* Gold color for sub headings */
+    }
+    
+    /* CSS for forms */
+    form {
+        max-width: 400px; /* Limit width of forms */
+        margin: 0 auto; /* Center align forms */
+        text-align: center; /* center align text within forms */
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select,
+    button {
+        width: 100%; /* Make form elements full width */
+        padding: 10px; /* Add padding to form elements */
+        margin-bottom: 10px; /* Add margin below form elements */
+        border: none; /* Remove border */
+        border-radius: 5px; /* Add border radius */
+    }
+    
+    button {
+        background-color: #ffd700; /* Gold background color for buttons */
+        color: #000; /* Text color for buttons */
+        cursor: pointer; /* Change cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition for background color */
+    }
+    
+    button:hover {
+        background-color: #c0c0c0; /* Darker gold background color on hover */
+    }
+    
+    /* CSS for footer */
+    footer {
+        color: #ffd700; /* Gold text color for footer */
+    }
+    
+    
+    /* CSS for buttons */
+    button {
+        background-color: #333; /* Dark silver background color for buttons */
+        color: #fff; /* White text color for buttons */
+        cursor: pointer; /* Change cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition for background color */
+        border: none; /* Remove button border */
+        padding: 10px 20px; /* Add padding to buttons */
+        border-radius: 5px; /* Add border radius to buttons */
+        text-transform: uppercase; /* Convert button text to uppercase */
+        font-weight: bold; /* Add bold font weight to button text */
+    }
+    
+    button:hover {
+        background-color: #555; /* Darker background color on hover */
+    }
+    
+    /* CSS for body */
+    body {
+        background: linear-gradient(to bottom, #333, #222); /* Dark grey gradient background */
+        color: #fff; /* White text color */
+        font-family: Arial, sans-serif; /* Font family */
+        padding: 20px; /* Add padding to the body */
+        text-align: center; /* Center align text */
+        box-sizing: border-box; /* Use border-box box model */
+        margin: 0 center; /* Center align content */
+    }
+    
+    /* CSS for headings */
+    h1, h2, h3 {
+        color: #ffd700; /* Gold text color for headings */
+    }
+    
+    /* CSS for navigation */
+    nav ul li button {
+        border: none; /* Remove button border */
+        background: none; /* Remove button background */
+        color: #fff; /* White text color for buttons */
+        font-size: 20px; /* Font size of navigation links */
+        cursor: pointer; /* Change cursor on hover */
+        transition: color 0.3s; /* Smooth transition for text color */
+        text-transform: uppercase; /* Convert button text to uppercase */
+        font-weight: bold; /* Add bold font weight to button text */
+    }
+    
+    nav ul li button:hover {
+        color: #ffd700; /* Gold text color on hover */
+    }
+    
+
+    
+    /* Style the dots */
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+    
+    /* Active dot */
+    .active {
+        background-color: #717171;
+    }
+    
+    
+
+    

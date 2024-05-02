@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTO Body Shop</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>GTO Body Shop</h1> <!-- Main heading -->
+        <h2>Welcome to GTO Body Shop</h2> <!-- Sub heading -->
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Change buttons to links -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</section>
+
+
+    <!-- Online Booking System section -->
+        <h1>Online Booking System</h1> <!-- Sub-heading -->
+        <p>Book your appointment online for hassle-free scheduling. Check availability and choose a convenient time.</p> <!-- Description -->
+        
+        <!-- Booking form -->
+        <form action="submit_booking.php" method="post">
+            <label for="name">Name:</label><br> <!-- Input field label -->
+            <input type="text" id="name" name="name" required><br> <!-- Input field for name -->
+            
+            <label for="email">Email:</label><br> <!-- Input field label -->
+            <input type="email" id="email" name="email" required><br> <!-- Input field for email -->
+            
+            <label for="phone">Phone:</label><br> <!-- Input field label -->
+            <input type="tel" id="phone" name="phone" required><br> <!-- Input field for phone number -->
+            
+            <label for="date">Preferred Date:</label><br> <!-- Input field label -->
+            <input type="date" id="date" name="date" required><br> <!-- Input field for preferred date -->
+            
+            <label for="time">Preferred Time:</label><br> <!-- Input field label -->
+            <input type="time" id="time" name="time" required><br> <!-- Input field for preferred time -->
+            
+            <label for="service">Select Service:</label><br> <!-- Input field label -->
+            <select id="service" name="service" required> <!-- Dropdown menu for selecting service -->
+                <option value="">-- Select a service --</option>
+                <option value="Bumper Scuff Repair">Bumper Scuff Repair</option>
+                <option value="Full Restoration">Full Restoration</option>
+                <option value="Minor Dent Repair">Minor Dent Repair</option>
+                <option value="Plastic Welding">Plastic Welding</option>
+                <option value="Car Wash and Detailing">Car Wash and Detailing</option> <!-- Added option -->
+            </select><br>
+            
+            <label for="message">Additional Notes:</label><br> <!-- Input field label -->
+            <textarea id="message" name="message" rows="4"></textarea><br> <!-- Textarea for additional notes -->
+            <button type="submit">Book Appointment</button> <!-- Submit button -->
+        </form>
+
+    <!-- Contact Form and Information -->
+        <h1>Contact Us</h1> <!-- Sub-heading -->
+        <p>Have questions or want to schedule an appointment? Reach out to us!</p> <!-- Description -->
+        
+        <!-- Contact Form -->
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label> <!-- Input field label -->
+            <input type="text" id="name" name="name" required><br> <!-- Input field for name -->
+            
+            <label for="email">Email:</label> <!-- Input field label -->
+            <input type="email" id="email" name="email" required><br> <!-- Input field for email -->
+            
+            <label for="message">Message:</label><br> <!-- Input field label -->
+            <textarea id="message" name="message" rows="4" required></textarea><br> <!-- Textarea for message -->
+            
+            <button type="submit">Send</button> <!-- Submit button -->
+        </form>
+
+        <!-- Contact Information -->
+        <p>Contact information:</p> <!-- Additional description -->
+        <ul>
+            <!-- List of contact information -->
+            <li>Phone: 01236 234 567</li>
+            <li>Email: info@gto-bodyshop.com</li>
+            <li>Address: 123 Main Street, Auto Town, GT City, GT5 FX0</li>
+        </ul>
+    
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 GTO Body Shop. All rights reserved.</p> <!-- Copyright information -->
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
